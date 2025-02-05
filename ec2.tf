@@ -1,5 +1,5 @@
 resource "aws_instance" "server1" {
-  availability_zone = "us-east-1a"
+  availability_zone = "us-east-1a"  
   ami = "ami-045269a1f5c90a6a0"
   #associate_public_ip_address = false
   instance_type = "t2.micro"

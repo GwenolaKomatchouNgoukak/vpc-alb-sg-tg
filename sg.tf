@@ -1,4 +1,4 @@
-# Security group
+# Security group   
 
 resource "aws_security_group" "ws" {
   name = "webser-alb"
